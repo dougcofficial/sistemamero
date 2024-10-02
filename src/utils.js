@@ -26,7 +26,7 @@ export const servicos = [
   {
     id: 2,
     titulo: "Marca",
-    descricao: "Criação de marca com manual de identidade visual."
+    descricao: "Criação de marca com grids de Identidade Visual. Processo de criação de marca gráfica e padrão visual exclusivo para personalização de materiais. Definição de tipografia auxiliar e demais padrões gráficos da marca, como cores, grafismos, formatos, etc. Apresentação de desenvolvimento do projeto, com definição de posicionamento de marca, termômetro da identidade visual, manifesto da marca, estratégia usada e simulação de materiais base, dando direcionamento para comunicação."
   },
   {
     id: 3,
