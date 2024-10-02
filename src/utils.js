@@ -62,57 +62,57 @@ export const servicos = [
     id: 9,
     titulo: "Cartão de Visitas",
     descricao: "Desenvolvimento de layout de cartão de visitas, simulação de aprovação e fechamento de arquivo para impressão."
-  }
+  },
   {
     id: 10,
     titulo: "Cartão de Visitas Digital",
     descricao: "Desenvolvimento de layout de cartão de visitas digital, simulação de aprovação e fechamento de arquivo para uso digital."
-  }
+  },
   {
     id: 11,
     titulo: "Assinatura de Email",
     descricao: "Desenvolvimento de layout de assinatura de email e fechamento de arquivo para uso digital."
-  }
+  },
   {
     id: 12,
     titulo: "Receituário",
     descricao: "Desenvolvimento de layout de receituário formato A5, simulação de aprovação e fechamento de arquivo para impressão."
-  }
+  },
   {
     id: 13,
     titulo: "Receituário Controlado",
     descricao: "Desenvolvimento de layout de receituário controlado formato A5, simulação de aprovação e fechamento de arquivo para impressão."
-  }
+  },
   {
     id: 14,
     titulo: "Jaleco",
     descricao: "Desenvolvimento de layout para aplicação de marca, simulação de aplicação e fechamento de arquivo para bordado."
-  }
+  },
   {
     id: 15,
     titulo: "Adesivo de Selamento",
     descricao: "Desenvolvimento de layout de adesivo de selamento, simulação de aprovação e fechamento de arquivo para impressão."
-  }
+  },
   {
     id: 16,
     titulo: "Tag",
     descricao: "Desenvolvimento de layout da tag, simulação de aprovação e fechamento de arquivo para impressão."
-  }
+  },
   {
     id: 17,
     titulo: "Papel Seda",
     descricao: "Desenvolvimento de layout de papel seda, simulação de aprovação e fechamento de arquivo para impressão."
-  }
+  },
   {
     id: 18,
     titulo: "Cartão de Agradecimento",
     descricao: "Desenvolvimento de layout do cartão de agradecimento, simulação de aprovação e fechamento de arquivo para impressão."
-  }
+  },
   {
     id: 19,
     titulo: "Embalagem",
     descricao: "Desenvolvimento de layout de embalagem, simulação de aprovação e fechamento de arquivo para impressão."
-  }
+  },
   {
     id: 20,
     titulo: "Perfil - Rede Social",
