@@ -21,47 +21,47 @@ export const servicos = [
   {
     id: 1,
     titulo: "Naming",
-    descricao: "Criação de layout para cartão de visitas, com simulação de aprovação e fechamento de arquivo para impressão."
+    descricao: "Desenvolvimento de pesquisa de nome livre para registro em classe pré-determinada do INPI. Apresentação conceitual do estudo de nome."
   },
   {
     id: 2,
     titulo: "Marca",
-    descricao: "Criação de marca com grids de Identidade Visual. Processo de criação de marca gráfica e padrão visual exclusivo para personalização de materiais. Definição de tipografia auxiliar e demais padrões gráficos da marca, como cores, grafismos, formatos, etc. <br> Apresentação de desenvolvimento do projeto, com definição de posicionamento de marca, termômetro da identidade visual, manifesto da marca, estratégia usada e simulação de materiais base, dando direcionamento para comunicação."
+    descricao: "Criação de marca com grids de Identidade Visual. Processo de criação de marca gráfica e padrão visual exclusivo para personalização de materiais. Definição de tipografia auxiliar e demais padrões gráficos da marca, como cores, grafismos, formatos, etc. Apresentação de desenvolvimento do projeto, com definição de posicionamento de marca, termômetro da identidade visual, manifesto da marca, estratégia usada e simulação de materiais base, dando direcionamento para comunicação."
   },
   {
     id: 3,
     titulo: "Assinatura de Email",
-    descricao: "Desenvolvimento de assinatura de email."
+    descricao: "Desenvolvimento de layout de assinatura de email e fechamento de arquivo para uso digital."
   },
   {
     id: 4,
     titulo: "Envelope",
-    descricao: "Desenvolvimento de layout de envelope."
+    descricao: "Desenvolvimento de layout de envelope, simulação de aprovação e fechamento de arquivo para impressão."
   },
   {
     id: 5,
     titulo: "Papel Timbrado",
-    descricao: "Criação de papel timbrado e fechamento de arquivo."
+    descricao: "Desenvolvimento de layout para papel timbrado e fechamento de arquivo para uso digital."
   },
   {
     id: 6,
     titulo: "Fachada",
-    descricao: "Criação de fachada e fechamento de arquivo para implementação."
+    descricao: "Desenvolvimento de layout para fachada, simulação de aprovação e fechamento de arquivo para implementação."
   },
   {
     id: 7,
     titulo: "Pastinha",
-    descricao: "Criação de pastinha e fechamento de arquivo para impressão."
+    descricao: "Desenvolvimento de layout de pastinha, simulação de aprovação e fechamento de arquivo para impressão."
   },
   {
     id: 8,
     titulo: "Uniforme",
-    descricao: "Criação de uniforme e fechamento de arquivo para serigrafia."
+    descricao: "Desenvolvimento de layout de uniforme, simulação de aprovação e fechamento de arquivo para serigrafia."
   },
   {
     id: 9,
-    titulo: "Teste3",
-    descricao: "Criação de uniforme e fechamento de arquivo para serigrafia."
+    titulo: "Cartão de Visitas",
+    descricao: "Desenvolvimento de layout de cartão de visitas, simulação de aprovação e fechamento de arquivo para impressão."
   }
 ];
 
