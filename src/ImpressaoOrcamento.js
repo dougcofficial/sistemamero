@@ -16,7 +16,7 @@ const ImpressaoOrcamento = ({ numeroOrcamento, dataOrcamento, servicosSelecionad
       <h3>Metodologia de Trabalho</h3>
       <div style={{ marginTop: '30px' }}>
         <h3>1. Atendimento / Briefing</h3>
-        <img src="/imagens/imagem1.jpg" alt="Imagem Atendimento / Briefing" style={{ width: '100%', height: 'auto', marginTop: '10px', marginBottom: '10px' }} />
+        <img src={`${process.env.PUBLIC_URL}/imagens/imagem1.png`} alt="Imagem Atendimento / Briefing" style={{ width: '100%', height: 'auto', marginTop: '10px', marginBottom: '10px' }} />
         <p>Feito o primeiro contato com o cliente, é marcada uma conversa onde colhemos todos os dados e informações que possam ser úteis ao desenvolvimento do projeto. Histórico da empresa, pessoa física, características, atuação e informações adicionais. Todo esse apanhado de informações formam o que chamamos de briefing, que vai dar ao designer o rumo a ser tomado para o desenvolvimento do projeto.</p>
         
         <h3>2. Projeto</h3>
