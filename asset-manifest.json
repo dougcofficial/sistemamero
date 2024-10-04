@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sistemamero/static/css/main.d482890e.css",
-    "main.js": "/sistemamero/static/js/main.614acb30.js",
+    "main.js": "/sistemamero/static/js/main.917ca7ab.js",
     "static/js/453.a8fb8127.chunk.js": "/sistemamero/static/js/453.a8fb8127.chunk.js",
     "index.html": "/sistemamero/index.html",
     "main.d482890e.css.map": "/sistemamero/static/css/main.d482890e.css.map",
-    "main.614acb30.js.map": "/sistemamero/static/js/main.614acb30.js.map",
+    "main.917ca7ab.js.map": "/sistemamero/static/js/main.917ca7ab.js.map",
     "453.a8fb8127.chunk.js.map": "/sistemamero/static/js/453.a8fb8127.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d482890e.css",
-    "static/js/main.614acb30.js"
+    "static/js/main.917ca7ab.js"
   ]
 }
