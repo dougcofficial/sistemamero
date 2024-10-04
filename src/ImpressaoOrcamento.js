@@ -21,8 +21,13 @@ const ImpressaoOrcamento = ({
     }
   };
 
+  const condicoesGeraisStyle = {
+    fontStyle: 'italic',
+    fontSize: '0.9em', 
+  };
+
   return (
-    <div style={{ padding: '2rem', maxWidth: '1000px', margin: '0 auto', fontFamily: 'Helvetica Neue, sans-serif' }}>
+    <div style={{ padding: '2rem', maxWidth: '1000px', margin: '0 auto', fontFamily: 'Helvetica Neue, sans-serif', backgroundColor: 'white' }}>
       <div style={{ textAlign: 'right', marginBottom: '20px' }}>
         <p>Lajeado, {formatarData(dataOrcamento)}</p>
         <p>Orçamento Nº: {numeroOrcamento}</p>
@@ -70,7 +75,7 @@ const ImpressaoOrcamento = ({
       </table>
 
       <div style={{ textAlign: 'right', marginTop: '20px', fontWeight: 'bold' }}>
-        <p>Valor Total: {formatarMoeda(valorTotal)}</p>
+        <p>Investimento: {formatarMoeda(valorTotal)}</p>
       </div>
 
       <div style={{ marginTop: '20px', border: '1px solid #ddd', padding: '15px', backgroundColor: '#f8f8f8' }}>
@@ -82,11 +87,13 @@ const ImpressaoOrcamento = ({
 
       <div style={{ marginTop: '30px' }}>
         <h3>{numeroSecao++}. Condições Gerais</h3>
-        <p>- A solicitação de serviços diferentes dos listados acima serão cobrados separadamente, assim como, a solicitação de outros serviços ou mudanças na ordem prevista no cronograma, sem combinação prévia, acarretará em alteração nos prazos de entrega da proposta.</p>
-        <p>- Serão apresentadas uma versão de marca e slogan e argumentada a defesa do conceito apresentado. Em caso de não aprovação, será debatido quais os pontos a serem corrigidos e será apresentada a versão ajustada. Caso haja necessidade, alterações exigidas após segunda versão serão orçadas separadamente via custo/hora de trabalho.</p>
-        <p>- Não está inclusa nesta proposta a produção dos materiais desenvolvidos, sendo de nossa responsabilidade informar o orçamento dos mesmos para avaliação e aprovação pelo contratante. Após aprovados e realizadas as execuções, estes serão faturados diretamente pelos fornecedores contra o cliente.</p>
-        <p>- Estudos apresentados ao cliente e não aprovados não podem ser utilizados posteriormente pelo cliente, sendo de propriedade do profissional.</p>
-        <p>- Caso o projeto não venha a ser concluído no prazo previsto, devido a indefinições da contratante, reservamo-nos o direito de manter inalteradas as datas de vencimento das faturas.</p>
+        <div style={condicoesGeraisStyle}>
+          <p>- A solicitação de serviços diferentes dos listados acima serão cobrados separadamente, assim como, a solicitação de outros serviços ou mudanças na ordem prevista no cronograma, sem combinação prévia, acarretará em alteração nos prazos de entrega da proposta.</p>
+          <p>- Serão apresentadas uma versão de marca e slogan e argumentada a defesa do conceito apresentado. Em caso de não aprovação, será debatido quais os pontos a serem corrigidos e será apresentada a versão ajustada. Caso haja necessidade, alterações exigidas após segunda versão serão orçadas separadamente via custo/hora de trabalho.</p>
+          <p>- Não está inclusa nesta proposta a produção dos materiais desenvolvidos, sendo de nossa responsabilidade informar o orçamento dos mesmos para avaliação e aprovação pelo contratante. Após aprovados e realizadas as execuções, estes serão faturados diretamente pelos fornecedores contra o cliente.</p>
+          <p>- Estudos apresentados ao cliente e não aprovados não podem ser utilizados posteriormente pelo cliente, sendo de propriedade do profissional.</p>
+          <p>- Caso o projeto não venha a ser concluído no prazo previsto, devido a indefinições da contratante, reservamo-nos o direito de manter inalteradas as datas de vencimento das faturas.</p>
+        </div>
 
         <h3>{numeroSecao++}. Entrega dos Materiais</h3>
         <p dangerouslySetInnerHTML={{ __html: getTextoEntrega() }} />
