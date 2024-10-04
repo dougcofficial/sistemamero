@@ -16,6 +16,7 @@ const SistemaOrcamento = () => {
   const [feedbackMessage, setFeedbackMessage] = useState('');
   const [servicos, setServicos] = useState(servicosIniciais);
   const [servicoPersonalizado, setServicoPersonalizado] = useState({ titulo: '', descricao: '' });
+  const [prazoEntrega, setPrazoEntrega] = useState(45);
 
   const toggleServico = useCallback((id) => {
     setServicosSelecionados(prev => {
@@ -61,6 +62,7 @@ const SistemaOrcamento = () => {
         servicosSelecionados={servicosSelecionados}
         servicos={servicos}
         valorTotal={valorTotal}
+        prazoEntrega={prazoEntrega}
         onVoltar={() => setMostrarImpressao(false)}
       />
     );
@@ -166,6 +168,16 @@ const SistemaOrcamento = () => {
               onChange={(e) => setValorTotal(e.target.value)}
               className="form-input"
               style={{ width: '10rem' }}
+            />
+          </div>
+          <div style={{ marginTop: 'calc(var(--spacing-unit) * 3)', display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>
+            <span style={{ marginRight: 'var(--spacing-unit)', fontSize: '1rem' }}>Prazo de Entrega (dias):</span>
+            <input
+              type="number"
+              value={prazoEntrega}
+              onChange={(e) => setPrazoEntrega(e.target.value)}
+              className="form-input"
+              style={{ width: '5rem' }}
             />
           </div>
           <button 

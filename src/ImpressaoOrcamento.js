@@ -1,7 +1,7 @@
 import React from 'react';
 import { formatarMoeda, formatarData } from './utils';
 
-const ImpressaoOrcamento = ({ numeroOrcamento, dataOrcamento, servicosSelecionados, servicos, valorTotal, onVoltar }) => {
+const ImpressaoOrcamento = ({ numeroOrcamento, dataOrcamento, servicosSelecionados, servicos, valorTotal, prazoEntrega, onVoltar }) => {
   return (
     <div style={{ padding: '2rem', maxWidth: '1000px', margin: '0 auto', fontFamily: 'Helvetica Neue, sans-serif' }}>
      <div style={{ textAlign: 'right', marginBottom: '20px' }}>
@@ -66,7 +66,7 @@ const ImpressaoOrcamento = ({ numeroOrcamento, dataOrcamento, servicosSelecionad
         <p>- Caso o projeto não venha a ser concluído no prazo previsto, devido a indefinições da contratante, reservamo-nos o direito de manter inalteradas as datas de vencimento das faturas.</p>
 
         <h3>6. Entrega dos Materiais</h3>
-        <p>A pesquisa e desenvolvimento de marca e identidade visual exige período mínimo de <b>45 dias</b> para desenvolvimento a partir do pagamento da primeira parcela, podendo haver variações conforme feriados nos meses seguintes, conforme acordo previamente fechado entre as partes. Neste período serão feitas as pesquisas referentes ao projeto, o desenvolvimento do projeto em si e a montagem da apresentação conceitual, a qual será agendada, após conclusão, para demonstração realizada pelo responsável. O desenvolvimento dos materiais acontece logo após aprovação da marca.</p>
+        <p>A pesquisa e desenvolvimento de marca e identidade visual exige período mínimo de <b>{prazoEntrega} dias</b> para desenvolvimento a partir do pagamento da primeira parcela, podendo haver variações conforme feriados nos meses seguintes, conforme acordo previamente fechado entre as partes. Neste período serão feitas as pesquisas referentes ao projeto, o desenvolvimento do projeto em si e a montagem da apresentação conceitual, a qual será agendada, após conclusão, para demonstração realizada pelo responsável. O desenvolvimento dos materiais acontece logo após aprovação da marca.</p>
 
         <h3>7. Pagamentos</h3>
         <p>O valor total poderá ser parcelado, via boleto bancário, de acordo com as condições descritas no orçamento, com primeira parcela programada para 7 dias após confirmação do serviço.</p>
