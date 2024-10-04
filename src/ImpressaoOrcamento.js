@@ -89,7 +89,7 @@ const ImpressaoOrcamento = ({
         <h3>{numeroSecao++}. Condições Gerais</h3>
         <div style={condicoesGeraisStyle}>
           <p>- A solicitação de serviços diferentes dos listados acima serão cobrados separadamente, assim como, a solicitação de outros serviços ou mudanças na ordem prevista no cronograma, sem combinação prévia, acarretará em alteração nos prazos de entrega da proposta.</p>
-          <p>- Serão apresentadas uma versão de marca e slogan e argumentada a defesa do conceito apresentado. Em caso de não aprovação, será debatido quais os pontos a serem corrigidos e será apresentada a versão ajustada. Caso haja necessidade, alterações exigidas após segunda versão serão orçadas separadamente via custo/hora de trabalho.</p>
+          <p>- Serão apresentadas uma versão de cada escopo de entrega para conferëncia. Em caso de não aprovação, será debatido quais os pontos a serem corrigidos para nova apresentação. Caso haja necessidade, alterações exigidas após segunda versão, que fujam do escopo inicial, serão orçadas separadamente via custo/hora de trabalho.</p>
           <p>- Não está inclusa nesta proposta a produção dos materiais desenvolvidos, sendo de nossa responsabilidade informar o orçamento dos mesmos para avaliação e aprovação pelo contratante. Após aprovados e realizadas as execuções, estes serão faturados diretamente pelos fornecedores contra o cliente.</p>
           <p>- Estudos apresentados ao cliente e não aprovados não podem ser utilizados posteriormente pelo cliente, sendo de propriedade do profissional.</p>
           <p>- Caso o projeto não venha a ser concluído no prazo previsto, devido a indefinições da contratante, reservamo-nos o direito de manter inalteradas as datas de vencimento das faturas.</p>
@@ -102,6 +102,8 @@ const ImpressaoOrcamento = ({
         <p>O valor total poderá ser parcelado, via boleto bancário, de acordo com as condições descritas no orçamento, com primeira parcela programada para 7 dias após confirmação do serviço.</p>
 
         <p><i>Att. Douglas Corbellini</i></p>
+        <p><i>Mero Comunicação LTDA.</i></p>
+        <p><i>contato@mero.com.br</i></p>
       </div>
 
       <div className="no-print" style={{ '@media print': { display: 'none' } }}>
