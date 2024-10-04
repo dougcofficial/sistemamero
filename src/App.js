@@ -54,6 +54,11 @@ const SistemaOrcamento = () => {
     setMostrarImpressao(true);
   };
 
+  const temServicosEspeciais = servicosSelecionados.some(id => {
+    const servico = servicos.find(s => s.id === id);
+    return servico && (servico.titulo.toLowerCase() === "naming" || servico.titulo.toLowerCase() === "marca");
+  });
+
   if (mostrarImpressao) {
     return (
       <ImpressaoOrcamento 
@@ -63,6 +68,7 @@ const SistemaOrcamento = () => {
         servicos={servicos}
         valorTotal={valorTotal}
         prazoEntrega={prazoEntrega}
+        temServicosEspeciais={temServicosEspeciais}
         onVoltar={() => setMostrarImpressao(false)}
       />
     );
