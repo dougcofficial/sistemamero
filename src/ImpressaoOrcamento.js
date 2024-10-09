@@ -102,8 +102,7 @@ const ImpressaoOrcamento = ({
         <p>O valor total poderá ser parcelado, via boleto bancário, de acordo com as condições descritas no orçamento, com primeira parcela programada para 7 dias após confirmação do serviço.</p>
 
         <p><i>Att. Douglas Corbellini</i></p>
-        <p><i>Mero Comunicação LTDA.</i></p>
-        <p><i>contato@mero.com.br</i></p>
+       
       </div>
 
       <div className="no-print" style={{ '@media print': { display: 'none' } }}>
